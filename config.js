@@ -7,7 +7,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID === undefined ? 'PINKVENOM-MD;6Dw3gTaB#3SwxraXKFJFjNZ0wAJh9ftWlnDGr_BRPi68pdeOEgUM' : process.env.SESSION_ID, //ADD YOUR SESSION ID
+    SESSION_ID: process.env.SESSION_ID === undefined ? 'PINKVENOM-MD;WYZG0LZQ#XbH4xexGQgraXUhxNhhraZteI5tYDd5k1Mqhclvn0VE' : process.env.SESSION_ID, //ADD YOUR SESSION ID
     GITHUB_USER_NAME: process.env.GITHUB_USER_NAME === undefined ? 'Heroanjana' : process.env.GITHUB_USER_NAME, //ADD YOUR GITHUB USERNAME
     GITHUB_AUTH_TOKEN: process.env.GITHUB_AUTH_TOKEN === undefined ? 'dASWkYG10br3CJyrt2Q2ZCPAvTrh3L1LptZH' : process.env.GITHUB_AUTH_TOKEN, //ADD YOUR GITHUB AUTH TOKEN WITHOUT gph_ ,  example - G5OxxdvEbiBPWxm4A0xypQGlyCr4FS267ifz
     WORK_TYPE: process.env.WORK_TYPE === undefined ? 'public' : process.env.WORK_TYPE, //ONLYME / ONLYGROUP OR PUBLIC
